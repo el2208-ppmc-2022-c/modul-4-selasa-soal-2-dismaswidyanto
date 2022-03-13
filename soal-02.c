@@ -78,5 +78,7 @@ int main()
 			printf("heater off!\n");
 		}
 	}
-
+	
+	free(suhu);
+	return 0;
 }
