@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "70\r\n10\r\n14\r\n25.6\r\n26.8\r\n49.43\r\n69\r\n94\r\n-1",
+      "output": "heater on!\r\nheater on!\r\nheater on!\r\nheater on!\r\nheater on!\r\nheater off!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "70\r\n10\r\n95\r\n57\r\n48.8\r\n69.5\r\n96.6\r\n-1",
+      "output": "heater off!\r\nheater on!\r\nheater on!\r\nheater on!\r\nheater off!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "70\r\n10\r\n75\r\n47\r\n48\r\n96.88\r\n94\r\n39\r\n59\r\n-1",
+      "output": "heater off!\r\nheater on!\r\nheater on!\r\nheater off!\r\nheater off!\r\nheater on!\r\nheater on!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "70\r\n10\r\n85\r\n25\r\n48.85\r\n85.36\r\n47.7\r\n94.9\r\n-1",
+      "output": "heater off!\r\nheater on!\r\nheater on!\r\nheater off!\r\nheater on!\r\nheater off!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "70\r\n10\r\n57.9\r\n360\r\n37.5\r\n90.6\r\n89\r\n78\r\n68\r\n70\r\n-1",
+      "output": "heater on!\r\nheater off!\r\nheater on!\r\nheater off!\r\nheater off!\r\nheater off!\r\nheater off!\r\nheater off!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "70\r\n10\r\n37\r\n94\r\n60\r\n25\r\n78\r\n54\r\n90\r\n45\r\n-1",
+      "output": "heater on!\r\nheater off!\r\nheater on!\r\nheater on!\r\nheater off!\r\nheater on!\r\nheater off!\r\nheater on!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "70\r\n10\r\n26\r\n48\r\n795\r\n67\r\n-1",
+      "output": "heater on!\r\nheater on!\r\nheater off!\r\nheater off!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "70\r\n10\r\n97\r\n57.8\r\n57\r\n97\r\n78\r\n75\r\n73\r\n72\r\n-1",
+      "output": "heater off!\r\nheater on!\r\nheater on!\r\nheater off!\r\nheater off!\r\nheater off!\r\nheater off!\r\nheater off!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "70\r\n10\r\n58\r\n36\r\n58\r\n58\r\n72\r\n83\r\n72\r\n83\r\n73\r\n73\r\n70\r\n-1",
+      "output": "heater on!\r\nheater on!\r\nheater on!\r\nheater on!\r\nheater on!\r\nheater off!\r\nheater off!\r\nheater off!\r\nheater off!\r\nheater off!\r\nheater off!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "70\r\n10\r\n84\r\n15\r\n57\r\n853\r\n73\r\n71\r\n68\r\n69\r\n-1",
+      "output": "heater off!\r\nheater on!\r\nheater on!\r\nheater off!\r\nheater off!\r\nheater off!\r\nheater off!\r\nheater off!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
